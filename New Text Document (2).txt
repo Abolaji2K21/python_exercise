@@ -1,0 +1,7 @@
+userInput1 = userInput // 10000
+userInput2 = (userInput % 10000) // 1000
+userInput3 = (userInput % 1000) // 100
+userInput4 = (userInput % 100) // 10
+userInput5 = (userInput % 10)
+
+print(f'{userInput5}')
